@@ -11,10 +11,6 @@ body{
 
 }
 
-.container{
-    
-}
-
 
 #cardContainer{
     margin-top: 100px;
@@ -97,4 +93,100 @@ footer{
     font-size: 12px;
     display: flex;
     margin: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+    #cardContainer{
+        background-color: hsl(216, 50%, 16%);
+        height: 60vh;
+        border: 15px solid hsl(216, 50%, 16%);
+        min-width: 25%;
+        border-radius: 10px;
+        box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.197);
+        
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #cardContainer{
+        background-color: hsl(216, 50%, 16%);
+        height: 60vh;
+        border: 15px solid hsl(216, 50%, 16%);
+        min-width: 30%;
+        border-radius: 10px;
+        box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.197);
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #cardContainer{
+        background-color: hsl(216, 50%, 16%);
+        height: 60vh;
+        border: 15px solid hsl(216, 50%, 16%);
+        min-width: 40%;
+        border-radius: 10px;
+        box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.197);
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #cardContainer{
+        background-color: hsl(216, 50%, 16%);
+        height: 60vh;
+        border: 15px solid hsl(216, 50%, 16%);
+        min-width: 50%;
+        border-radius: 10px;
+        box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.197);
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #cardContainer{
+        background-color: hsl(216, 50%, 16%);
+        height: 60vh;
+        border: 15px solid hsl(216, 50%, 16%);
+        min-width: 60%;
+        border-radius: 10px;
+        box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.197);
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #cardContainer{
+        background-color: hsl(216, 50%, 16%);
+        height: 60vh;
+        border: 15px solid hsl(216, 50%, 16%);
+        min-width: 70%;
+        border-radius: 10px;
+        box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.197);
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #cardContainer{
+        background-color: hsl(216, 50%, 16%);
+        height: 60vh;
+        border: 15px solid hsl(216, 50%, 16%);
+        min-width: 80%;
+        border-radius: 10px;
+        box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.197);
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
 }
